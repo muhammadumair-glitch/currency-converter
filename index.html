@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API PRACTICE</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="headingStyle">
+   <h>CURRENCY CONVERTOR</h>
+   </div>
+   <div id="formStyle">
+   <form>
+    <div id="inputStyle">
+        <label>Insert Amount:</label>
+    <input type="text" id="input" maxlength="30" value="0" autocomplete="off">
+    </div>
+    <div id="bothSelectOptionsStyle">
+        <div id="fromStyle">
+    <label>From:</label>
+    <img id = "fromImg"src="https://flagsapi.com/US/shiny/64.png">
+    <select id="from">
+    </select>
+    </div>
+    <div id="icon">
+        <i class="fa-solid fa-arrow-right-arrow-left"></i>
+    </div>
+    <div id="toStyle">
+    <label>To:</label>
+    <img id = "toImg"src="https://flagsapi.com/US/shiny/64.png">
+    <select id="to">
+    </select>
+    </div>
+    </div>
+  
+   
+   </form>
+     <div  id="convertStyle">
+    <button id="convert">convert</button>
+    </div>
+    
+   </div>
+   <div  id="valueStyle">
+   <p id="value">PLZ insert more than 0</p>
+</div>
+  <script src="api.js"></script>
+<script src="code.js"></script>    
+</body>
+</html>
